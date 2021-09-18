@@ -1,0 +1,124 @@
+@media screen and (max-width:575px) {
+/* OTHER INDEX FILE ALLS CSSS */
+.top_navber{
+    width: 100%;
+   background: rgb(44, 0, 255);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 5px 0px;
+}
+.top_navber .container h1{
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 3px #191314;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navber{
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+}
+.navber ul{
+    float: center;
+}
+.navber ul li a{
+    font-size: 16px;
+    padding: 0px 4px;
+}
+.navber ul li a:hover{
+    color: #fff;
+}
+.navber ul li{
+ border-right: 1px solid rgb(199, 199, 199);
+ padding: 5px 8px ;
+}
+.navber ul li:last-child{
+    border-right: 0;
+}
+.fist{
+    width: 100%;
+    padding: 10px 50px ;
+    background: url('../upload/logo/susan-q-yin-2JIvboGLeho-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fist .container p {
+    font-size: 17px;
+    color: #fdfdff;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 1px;
+}
+
+
+#read_book {
+     width: 100%;
+    background: #aab4e8;
+  }
+.rapper_read_book {
+    display: flex;
+    overflow-x: auto;
+    padding-top: 10px;
+  }
+.rapper_read_book::-webkit-scrollbar{
+  display: none;
+}
+.box_book {
+    height: 100px;
+    min-width: 150px;
+    background: #cbe7f4;
+    margin: 8px 3px;
+    border-radius: 6px;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px -1px #191919bf;
+  }
+.box_book a img{
+    width: 100%;
+    height: 100%;
+}
+#read_book .container p{
+    height: 119px;
+    padding: 0;
+    margin: 0;
+    color: rgb(88, 86, 86);
+}
+#all_sir_abo{
+    background: #e6e2e2;
+    width: 100%;
+}
+.abo_us{
+    display: flex;
+    overflow-x: auto;
+    padding-top: 10px;
+}
+.box_sir{
+    height: 280px;
+    min-width: 250px;
+    background: #d8d8d8;
+    margin: 8px 3px;
+    border-radius: 6px;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px -1px #0a0a0abf;
+}
+.box_sir  img{
+    width: 100%;
+    height: 100%;
+}
+#contact_us{
+    width: 100%;
+    height: auto;
+    background: rgba(101, 140, 255, 0.87);
+    box-sizing: border-box;
+    padding: 10px 0px;
+}
+#contact_us p {
+    font-size: 14px;
+    text-align: center;
+    color: #424040;
+    margin: 9px;
+}
+
+}

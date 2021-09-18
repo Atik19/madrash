@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&display=swap');
+/* ==============================================INDEX HTNL FILE ALL RES>> CSS ========================= */
+@media screen and (max-width:575px) {
+    *{
+    padding: 0;
+    margin: 0;
+    }
+    a i{
+        font-weight:600;
+        }
+    /* log in page */
+    .logIn_box{
+       width: 90%;
+       border-radius:0;
+       margin-top: 0px !important;
+    }
+    /* sig in page */
+    .sigIn_box_r{
+        width: 100% !important;
+        min-height: 600px;
+        border-radius:0;
+        
+     }
+     .container{
+         width: 100% !important;
+     }
+     /* viw page */
+     .vew_box{
+         width: 100%;
+         margin-top: 30%;
+     }
+
+     .rap_in{
+         width: 80% !important;
+     }
+     .logIn_box.sigIn_box_r {
+        margin-top: -100px !important;
+    }
+/* ========================home pagr main user out fut============================ */
+/* headder sectino */
+.all_rap{
+    margin-top: 5%;
+    overflow: auto;
+}
+.navber {
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(59, 59, 59);
+    position: fixed;
+    z-index: 2000;
+}
+.navber h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: lowercase;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-weight: 800;
+    text-shadow: -3px 3px 5px #999;
+    background: url("../upload/logo/banner_flag.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+ul{
+    padding-top: 5px;
+    line-height:30px;
+    padding-left: 6px;
+}
+ul li a{
+    font-size: 25px;
+    margin-right: 1px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-right: 12px;
+    transition: .3s;
+    color: rgb(76, 73, 236);
+    border-right: 1px solid #202020;
+}
+ul li a i{
+    padding-right: 15px;
+    text-align: center;
+}
+ul li a:hover{
+    color: rgb(0, 0, 0);
+    background: rgba(5, 5, 5, 0.158);
+}
+ul li a:hover i{
+    border: 0;
+}
+/* user section */
+.user {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    box-shadow: 2px 6px 5px 0px #53535387;
+    border-radius: 5px;
+}
+.user .use_img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+.use_img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.user .sharec {
+    cursor: pointer;
+    float: right;
+    width: 83%;
+}
+
+/* pad menu section */
+.fad_menu {
+    background: rgb(255, 255, 255);
+    top: 57px;
+    right: 0;
+    height: 100%;
+    padding-left: 12px;
+    box-sizing: border-box;
+    box-shadow: 3px 5px 5px 5px #00000094;
+    position:fixed;
+    padding-bottom: 10px;
+    padding-top: 33px;
+}
+.fad_menu{
+    opacity: 0;
+    visibility: collapse;
+    width:100%;
+    transition: all linear .60s;
+}
+.profile_use{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    font-family: 'Khula', sans-serif;
+    font-weight: 500;
+    color: black;
+    box-shadow: -7px 7px 3px -3px #aca9a9;
+    background: rgb(250, 250, 250);
+    margin-top: 5px;
+}
+.profile_use:hover{
+    background: #0202024b;
+}
+.profile_use img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+/* ======== POST BOX SECTION START */
+.post_out_box{
+    width: 99%;
+    background: #f0f0f0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 19%;
+    border-radius: 1px;
+    padding: 2px 1px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 1px 1px #0009;
+    border: 1px solid #dfdcdc;
+    display: none;
+}
+.post_out_box .fa-times-circle{
+    position: absolute;
+    right: -1px;
+    top: -6px;
+    color: #f00;
+    cursor: pointer;
+    font-size: 28px;
+}
+.post_out_box .post_in_box{
+    border: 1px solid #d0cfcf;
+    background: #fff;
+}
+/* puclic post================= */
+.enter_post{
+    width: 100%;
+    background: #fff;
+} 
+.enter_post .p_profile {
+    padding :10px 10px ;
+}
+.enter_post a img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+/* ===================provail file of css=========== */
+.user_profile {
+    width: 100%;
+    background: #fff;
+    margin-top: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 6px 5px #0000003d;
+    border-radius: 6px;
+}
+.bak_imge {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background: rebeccapurple;
+}
+.bak_imge > img{
+    height: 100%;
+    width: 100%;
+}
+.bak_imge img:nth-child(2){
+    height: 131px;
+    width: 137px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: -74px;
+}
+.rapper{
+    margin-top:90px ;
+}
+.problem_alert{
+    width: 90%;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: -1px 12px 9px 2px #333232;
+    position: absolute;
+    top: 61%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding: 10px 14px;
+    box-sizing: border-box;
+}
+
+/* ======================= add sdent======================================== */
+.add_student{
+    width: 91%;
+    background: #fff;
+    margin: auto;
+    margin-top: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 14px 2px #4f4a4aa8;
+}
+
+/* messeng thml file all css */
+.mess_box {
+    width: 100%;
+    background: #c80c0ced;
+    height: 100%;
+    position: absolute;
+}
+.mess_head {
+    width: 100%;
+    height: 11%;
+    background: blue;
+    position: fixed;
+    z-index: 400;
+    top: 0;
+}
+.mess_body {
+    width: 100%;
+    background: lime;
+    height: 75%;
+    position: relative;
+}
+
+.mess_foter {
+    width: 100%;
+    height: 14%;
+    background: yellow;
+    position: fixed;
+    z-index: 400;
+    bottom: 0;
+}
+.mess_body .mess {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 10%;
+
+}
+/* viditing html all css file */
+.vigiting_card {
+    width: 400px;
+    height: 230px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 7px 5px #00000059;
+    padding: 10px;
+}
+.vigiting_card .inter_card_v {
+    width: 100%;
+    height: 100%;
+    background:#fff;
+    box-sizing: border-box;
+    position: relative;
+}
+.inter_card_v .left {
+    width: 35%;
+    height: 100%;
+    background: #b505f4;
+    box-sizing: border-box;
+    box-shadow: 5px 0px 4px #00000030;
+    position: relative;
+}
+.left img{
+    height: 73px;
+    border-radius: 50%;
+    width: 72px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 14px;
+
+}
+.left div{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+.left div p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left div p:nth-child(2){
+    font-size: 13px;
+}
+.left div p:nth-child(3){
+    font-size: 10px;
+}
+.inter_card_v .right{
+    width: 66%;
+    height: 100%;
+    box-sizing: border-box;
+    box-shadow: 5px 0px 4px #00000030;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 4px solid black;
+}
+.right .vi_group{
+    width: 98%;
+    padding: 5px 0px;
+    margin-top: 9px;
+}
+.vi_group .vi_icon{
+    width: 30px;
+    height: 30px;
+    background: #f4f4f4;
+    margin-left: 5px;
+    box-shadow: 0px 0px 3px 2px #080808b3;
+    font-size: 21px;
+    text-align: center;
+    padding: 0px;
+    color: blue;
+}
+.vi_group .vi_menu{
+    width: 198px;
+    height: 30px;
+    background: #f4f4f4;
+    margin-left: 6px;
+    box-shadow: 0px 0px 3px 2px #080808b3;
+    float: right;
+    margin-top: -30px;
+    text-transform: capitalize;
+    font-size: 19px;
+    font-family: initial;
+    padding-left: 8px;
+    border-radius: 3px;
+    overflow: scroll;
+}
+/* notice css all file */
+.notice{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #9f8d8d;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px 4px rgba(27, 27, 27, 0.753);
+    background: #fff;
+}
+
+/* about me all css file */
+.Abo_me{
+    width: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 2px rgb(70, 70, 70);
+    margin: auto;
+    margin-top: 5px;
+}
+.Abo_me img{
+    width: 150px;
+    height: 150px;
+    float: center;
+    margin:auto;
+    display: block;
+    background-color: red;
+}
+/* Resuldcss all file */
+.resuld_boox{
+    width: 100%;
+    background: white;
+    margin-top: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 7px -1px #080808;
+    border-radius: 5px;
+    padding: 10px;
+}
+.resuld_boox .resuld_head{
+    width: 100%;
+    background:url("../upload/logo/banner_flag.jpg") no-repeat ;
+    background-size:100% 100%;
+    padding: 2px;
+    height: 99px;
+
+}
+.resuld_boox .resuld_body{
+    width: 83%;
+    background: #00000003;
+    margin: auto;
+    margin-top: 19px;
+    border: 1px solid #b7b6b6;
+    padding: 10px 10px;
+}
+.resuld_boox .resuld_fotter{
+    font-size: 15px;
+    width: 100%;
+    height: 54px;
+    background: #00000017;
+    margin-top: 12px;
+    border-top: 7px solid lime;
+}
+
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;700&display=swap');
+body{
+    padding: 0;
+    margin: 0px;
+}
+a:hover{
+    text-decoration: none;
+}
+ li{
+     list-style-type: none;
+ }
+*{
+    padding: 0;
+    margin: 0px;
+}
+/*  */
+th{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+/* viwe page design */
+.vew_box{
+    width: 66%;
+    margin: auto;
+    margin-top: 20px;
+    background: rgb(248, 245, 242);
+    height: auto;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 5px 8px 12px 6px #0d0d0d;
+    padding: 10px;
+}
+.vew_box .viwe_inter_box{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(148, 148, 148);
+    background: #fff;
+    padding:2px;
+    position: relative;
+}
+.back {
+    position: absolute;
+    right: 7px;
+    font-size: 19px;
+}
+.vew_box img{
+    height: 206px;
+    width: 210px;
+    padding: 5px;
+    border-radius: 10px;
+}
+p{
+    font-family: inherit;
+}
+/* ==============================rsuld all csss stard */
